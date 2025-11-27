@@ -5,6 +5,17 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  .back-link {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #004d40;
+  }
+
+</style>
 </head>
 
 <body style="margin:0; padding:0; background-color:#ffb347;">
@@ -19,11 +30,11 @@
   <div class="column" style="background-color:#ffbe73; padding:20px; border-radius:10px;">
     <h2>Input</h2>
 
-    <img src="andGate-Images/button-off-xxl.png" id="toggleImage" 
+    <img src="Images/button-off-xxl.png" id="toggleImage" 
          onclick="toggleInputOne();" style="width:110px; cursor:pointer;">
     <br><br>
 
-    <img src="andGate-Images/button-off-xxl.png" id="toggleImage2" 
+    <img src="Images/button-off-xxl.png" id="toggleImage2" 
          onclick="toggleInputTwo();" style="width:110px; cursor:pointer;">
   </div>
 
@@ -31,7 +42,7 @@
   <div class="column" style="background-color:#ffbe73; padding:20px; border-radius:10px;">
     <h2>Output</h2>
     <hr>
-    <img id="andGate" src="andGate-Images/and2off.png" style="width:750px;"> <!-- LARGER IMAGE -->
+    <img id="andGate" src="Images/and2off.png" style="width:750px;"> <!-- LARGER IMAGE -->
   </div>
 
 </div>
@@ -45,9 +56,9 @@
   </button>
 </div>
 
-<!-- Spacing between Run and Back to Projects -->
-<div style="margin-top:15px;">
-  <a href="project.html">Back to Projects</a>
+<!-- Back to Projects button styled -->
+<div>
+  <a href="project.html" class="back-link">Back to Projects</a>
 </div>
 
 </section>
